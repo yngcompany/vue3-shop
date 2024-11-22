@@ -1,6 +1,7 @@
 {
 	"products": [
-	  { "id": 1, "name": "T-Shirt", "price": 20, "description": "Cotton T-shirt" },
-	  { "id": 2, "name": "Jeans", "price": 50, "description": "Blue denim jeans" }
+	  { "id": 1, "name": "티셔츠", "price": 20000, "description": "코튼 티셔츠" },
+	  { "id": 2, "name": "바지", "price": 50000, "description": "와이드 팬츠" },
+	  { "id": 3, "name": "신발", "price": 45000, "description": "블랙 로퍼" }
 	]
 }
