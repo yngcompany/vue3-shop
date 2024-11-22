@@ -2,9 +2,9 @@
 	<div id="app">
 		<!-- Header -->
 		<AppHeader />
-	
-		<!-- Main Content -->
-		<MainContent />
+
+		<!-- MainContent가 기본적으로 렌더링 -->
+		<router-view />
 	
 		<!-- Footer -->
 		<AppFooter />
@@ -14,15 +14,10 @@
 <script>
 	import AppHeader from "@/components/AppHeader.vue";
 	import AppFooter from "@/components/AppFooter.vue";
-	import MainContent from "@/components/MainContent.vue";
 	
 	export default {
 		name: "App",
-		components: {
-		AppHeader,
-		AppFooter,
-		MainContent,
-		},
+		components: { AppHeader, AppFooter },
 	};
 </script>
   

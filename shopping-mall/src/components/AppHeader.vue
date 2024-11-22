@@ -1,8 +1,9 @@
 <template>
 	<header>
-		<div class="logo">YNG SHOP</div>
+		<div class="logo">
+			<router-link to="/">YNG Shop</router-link>
+		</div>
 		<nav>
-			<router-link to="/">Home</router-link>
 			<router-link to="/cart">Cart</router-link>
 		</nav>
 	</header>
@@ -23,11 +24,12 @@ header {
 	justify-content: space-between;
 	align-items: center;
 }
-
+header a {text-decoration:none;}
 header .logo {
 	font-size: 24px;
 	font-weight: bold;
 }
+header .logo a { color:#FFF; font-size:28px; }
 
 header nav a {
 	color: #fff;

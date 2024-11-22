@@ -1,7 +1,7 @@
 {
 	"products": [
-	  { "id": 1, "name": "티셔츠", "price": 20000, "description": "코튼 티셔츠" },
-	  { "id": 2, "name": "바지", "price": 50000, "description": "와이드 팬츠" },
-	  { "id": 3, "name": "신발", "price": 45000, "description": "블랙 로퍼" }
+	  { "id": 1, "category": "T-Shirts", "name": "코튼 티셔츠", "price": 20000, "description": "간단한 코튼 티셔츠 관련 desc" },
+	  { "id": 2, "category": "Pants", "name": "와이드 팬츠", "price": 50000, "description": "간단한 와이드 팬츠 관련 desc" },
+	  { "id": 3, "category": "Shoes", "name": "블랙 로퍼", "price": 45000, "description": "간단한 블랙 로퍼 관련 desc" }
 	]
 }
